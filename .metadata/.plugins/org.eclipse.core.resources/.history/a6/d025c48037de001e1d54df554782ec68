@@ -1,0 +1,17 @@
+package com.auth.entity;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+@AllArgsConstructor
+@Document(collection="JWTUser")
+public class JwtUser {
+	private String username;
+	private String password;
+	private String email;
+}

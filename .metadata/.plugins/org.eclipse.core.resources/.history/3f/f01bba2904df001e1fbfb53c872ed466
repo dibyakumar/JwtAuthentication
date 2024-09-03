@@ -1,0 +1,31 @@
+package com.auth.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.auth.entity.AuthenticationRequest;
+import com.auth.entity.AuthenticationResponse;
+import com.auth.entity.RegisterRequest;
+import com.auth.repository.JwtUserRepo;
+
+@Service
+public class AuthenticationService {
+
+	@Autowired
+	private JwtUserRepo userRepo;
+	
+	@Autowired
+	private 
+	
+	public AuthenticationResponse register(RegisterRequest request) {
+
+		return null;
+	}
+
+	public AuthenticationResponse authenticate(AuthenticationRequest request) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

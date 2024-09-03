@@ -1,0 +1,22 @@
+package com.auth.service;
+
+import org.springframework.stereotype.Service;
+
+import com.auth.entity.AuthenticationRequest;
+import com.auth.entity.RegisterRequest;
+
+@Service
+public class AuthenticationService {
+
+	public Object register(RegisterRequest request) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object authenticate(AuthenticationRequest request) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}
